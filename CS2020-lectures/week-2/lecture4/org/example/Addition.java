@@ -6,8 +6,11 @@ import org.json.simple.JSONObject;
 
 public class Addition {
     public static void main(String[] args) {
+        //use method from Welcome1 to display welcome message
         Welcome1.printWelcome();
 
+        //display message "Hello" followed by users name
+        //name must be given in the terminal when running the program (java Addition graham)
         System.out.println("Hello " + args[0]);
 
         Scanner input = new Scanner(System.in);
