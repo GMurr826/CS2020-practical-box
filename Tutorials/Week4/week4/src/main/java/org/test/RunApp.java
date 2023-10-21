@@ -1,5 +1,5 @@
 package org.test;
-import java.util.Scanner;
+import java.util.*;
 
 public class RunApp {
     public static void main(String[] args) {

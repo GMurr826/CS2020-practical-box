@@ -6,7 +6,6 @@ public class RunApp {
         Scanner input = new Scanner(System.in);
         double total = 0;
         int c = 2;
-        boolean test = false;
 
         Greet greet = new Greet();
 
@@ -74,6 +73,7 @@ public class RunApp {
 
         calculation.printVersion();
 
+        input.close();
         
     }
     public static double validNum(String x) {
@@ -94,6 +94,7 @@ public class RunApp {
                 x = input.next();
             }
         }
+        input.close();
         return i;
     }
 
@@ -120,6 +121,7 @@ public class RunApp {
                 x = input.next();
             }
         }
+        input.close();
         return i;
     }
 
