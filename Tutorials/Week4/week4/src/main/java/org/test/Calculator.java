@@ -1,3 +1,5 @@
+package org.test;
+
 public class Calculator {
     //create instance variables
     private int x;
@@ -10,6 +12,7 @@ public class Calculator {
         this.y = y;
     }
 
+    // checkInt method checks given numbers are in range from 0 - 60 and throws exception if false
     public void checkInt(int x, int y) {
         if (x < 0 || x > 60 || y < 0 || y > 60) {
             throw new IllegalArgumentException("This calculator can only work with numbers in the range 0-60");
