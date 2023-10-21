@@ -34,7 +34,9 @@ public class RunApp {
                 System.out.println(calculation.mul());
             }
 
-            System.out.println("Calculated using Magic Calculator version " + calculation.version);
+            System.out.println("Calculated using Magic Calculator version " + Calculator.version);
+
+            input.close();
         }
         
     }
@@ -56,6 +58,7 @@ public class RunApp {
                 x = input.next();
             }
         }
+        input.close();
         return i;
     }
 
@@ -80,5 +83,6 @@ public class RunApp {
                 x = input.next();
             }
         }
+        input.close();
     }
 }

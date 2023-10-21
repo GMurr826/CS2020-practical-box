@@ -24,5 +24,7 @@ public class DailyCost{
 
         System.out.print("Your daily driving cost is £");
         System.out.printf("%d%n",total);
+
+        input.close();
     }
 }
