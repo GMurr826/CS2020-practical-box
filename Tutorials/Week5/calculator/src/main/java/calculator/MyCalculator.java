@@ -5,7 +5,7 @@ public class MyCalculator extends Calculator implements VersionInfo {
     private double y;
 
     MyCalculator(double x, double y) {
-        about();
+        // about();
         this.x = x;
         this.y = y;
     }
