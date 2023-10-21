@@ -72,8 +72,6 @@ public class RunApp {
         System.out.printf("Your total is %f%n", total);
 
         calculation.printVersion();
-
-        input.close();
         
     }
     public static double validNum(String x) {
@@ -94,7 +92,6 @@ public class RunApp {
                 x = input.next();
             }
         }
-        input.close();
         return i;
     }
 
@@ -121,7 +118,6 @@ public class RunApp {
                 x = input.next();
             }
         }
-        input.close();
         return i;
     }
 

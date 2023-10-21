@@ -1,5 +1,5 @@
-calculator/Greet.class
-calculator/VersionInfo.class
-calculator/RunApp.class
-calculator/MyCalculator.class
-calculator/Calculator.class
+calculator\VersionInfo.class
+calculator\Greet.class
+calculator\RunApp.class
+calculator\Calculator.class
+calculator\MyCalculator.class
